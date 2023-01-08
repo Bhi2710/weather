@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+
+.header_Section{
+  background-color: #4472C4;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+}
+
+.header_Section > h2{
+  color: #ffffff;
+}
+
+.Main_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main_container_left{
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+.Main_container_left > button{
+  width: 40%;
+  font-size: 15px;
+  font-weight: 540;
+  padding: 5px 10px;
+  background-color: #4472C4;
+  border: none;
+  margin: 8rem 0px 20px 0px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.Main_container_left_table  > tfoot > tr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Main_container_left_table > tfoot > tr > td{
+  border: 1px solid black;
+  width: 150px;
+  padding: 5px 0px;
+}
+
+.Main_container_left_table > tfoot > tr > td:hover{
+  cursor: pointer;
+  background-color: #bec0ff;
+}
+
+.Main_container_left_table > tfoot > tr > td:nth-child(1){
+  background-color: #4472C4;
+  color: #ffffff;
+}
+
+.vertex_line{
+  width: 8px;
+  background-color: black;
+}
+
+.Main_container_right{
+  width: 75vw;
+  height: 90vh;
+}
+
+
+.Main_container_right > section{
+  float: right;
+  margin-top: 7rem;
+  margin-right: 7.5rem;
+}
+
+.Main_container_right > section > input{
+  padding: 4px;
+  font-weight: 600;
+}
+
+.Main_container_right > section > button{
+  background-color: #4472C4;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.Main_container_right_table{
+  margin: 10.5rem 6rem;
+}
+
+table, tr, td{
+  border-collapse: collapse;
+}
+
+.Main_container_right_table > thead > tr > td{
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  width: 150px;
+  height: 40px;
+  background-color: #4472C4;
+  color: #ffffff;
+}
+
+.Main_container_right_table > tbody > tr > td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 150px;
+  height: 40px;
+}
+
+.Main_container_right_table > tbody > tr > td > span{
+  color: #4472C4;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Main_container_right_table > tbody > h1{
+  display: flex;
+  justify-content: right;
+  margin: 6rem 0px;  
+}
+
+
+
+
+
+
+
+
+
